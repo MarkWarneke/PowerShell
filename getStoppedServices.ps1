@@ -1,0 +1,1 @@
+get-service | where-object Status -eq 'Stopped' | select-object Status, Name, Displayname | export-csv C:\Source\test.csv
