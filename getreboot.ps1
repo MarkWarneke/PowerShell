@@ -1,0 +1,1 @@
+Get-EventLog -log system -newest 1000 | where-object eventid -eq '1074' | format-table machinename, username, timegenerated -autosize

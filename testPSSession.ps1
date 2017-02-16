@@ -1,0 +1,1 @@
+﻿Enter-PSSession -ComputerName DE-LOANER394 -Credential kastolz

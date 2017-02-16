@@ -1,0 +1,1 @@
+﻿Invoke-Command -ComputerName DE-LOANER394 -ScriptBlock { ipconfig } -credential kastolz

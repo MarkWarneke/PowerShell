@@ -1,0 +1,1 @@
+gethistory | out-file c:\Source\Repos\hist.txt
