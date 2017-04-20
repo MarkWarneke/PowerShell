@@ -1,0 +1,1 @@
+get-azurermvm -Status | Where-Object PowerState -match "running"

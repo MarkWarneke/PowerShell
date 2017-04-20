@@ -1,0 +1,1 @@
+﻿Get-Command | where { $_.parameters.keys -contains "ComputerName" -and $_.parameters.keys -notcontains "Session"}
