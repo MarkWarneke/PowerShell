@@ -1,4 +1,4 @@
-# powershell
+# PowerShell
 Simple powershell scripts for learning and sharing purposes.
 These scripts are my personal collection.
 The scripts are not getting revised and/or maintained by Microsoft, thus should NOT be used in any production environment.
