@@ -1,0 +1,1 @@
+Get-AzureRmVm | Get-AzureRmVm -Status | select ResourceGroupName, Name, @{n="Status"; e={$_.Statuses[1].DisplayStatus}}

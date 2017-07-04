@@ -4,7 +4,7 @@ function rdpvm ($ServiceName,$Name) {
     $rdp = (Get-AzureEndpoint -VM $vm | where { $_.LocalPort -eq 3389})
     $fqdn = (New-Object System.URI $vm.DNSName).Authority
     $port = $rdp.Port
-    Write-Host "Opening Remote Desktop Session with $($fqdn):$($port)..."
+    Write-Verbose "Opening Remote Desktop Session with $($fqdn):$($port)..."
     Start-Process "mstsc" -ArgumentList "/V:$($fqdn):$($port)"
   }
   else {

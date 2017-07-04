@@ -1,0 +1,1 @@
+Measure-Command -Expression { $ScriptBlog } -Argument $ScriptBlog 
